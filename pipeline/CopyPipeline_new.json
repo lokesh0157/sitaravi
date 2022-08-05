@@ -56,7 +56,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "DestinationDataset_xos",
+						"referenceName": "Binary2",
 						"type": "DatasetReference"
 					}
 				]
