@@ -10,6 +10,12 @@
 		},
 		"AzureBlobStorageout_connectionString": {
 			"value": ""
+		},
+		"AzureBlobStoragenewin_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorageoutputnew_connectionString": {
+			"value": ""
 		}
 	}
 }

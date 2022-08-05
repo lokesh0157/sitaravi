@@ -15,6 +15,14 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorageout'"
 		},
+		"AzureBlobStoragenewin_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStoragenewin'"
+		},
+		"AzureBlobStorageoutputnew_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorageoutputnew'"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -47,6 +55,12 @@
 					},
 					"AzureBlobStorageout_connectionString": {
 						"value": "[parameters('AzureBlobStorageout_connectionString')]"
+					},
+					"AzureBlobStoragenewin_connectionString": {
+						"value": "[parameters('AzureBlobStoragenewin_connectionString')]"
+					},
+					"AzureBlobStorageoutputnew_connectionString": {
+						"value": "[parameters('AzureBlobStorageoutputnew_connectionString')]"
 					}
 				}
 			},
