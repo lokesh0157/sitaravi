@@ -1,0 +1,17 @@
+{
+	"name": "Binary5",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "testdatasetin",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "in224"
+			}
+		}
+	}
+}
