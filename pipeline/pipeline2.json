@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1",
+	"name": "pipeline2",
 	"properties": {
 		"activities": [
 			{
@@ -41,14 +41,14 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "Binary2",
+						"referenceName": "Binary4",
 						"type": "DatasetReference"
 					}
 				]
 			}
 		],
 		"annotations": [],
-		"lastPublishTime": "2022-08-05T13:55:25Z"
+		"lastPublishTime": "2022-08-08T13:11:05Z"
 	},
 	"type": "Microsoft.DataFactory/factories/pipelines"
 }

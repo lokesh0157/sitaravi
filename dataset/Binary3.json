@@ -1,8 +1,8 @@
 {
-	"name": "Binary1",
+	"name": "Binary3",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureBlobStoragenewin",
+			"referenceName": "AzureBlobStoragein",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
