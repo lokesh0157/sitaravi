@@ -8,13 +8,19 @@
 		"AzureBlobStoragein_connectionString": {
 			"value": ""
 		},
-		"AzureBlobStorageout_connectionString": {
-			"value": ""
-		},
 		"AzureBlobStoragenewin_connectionString": {
 			"value": ""
 		},
+		"AzureBlobStorageout_connectionString": {
+			"value": ""
+		},
 		"AzureBlobStorageoutputnew_connectionString": {
+			"value": ""
+		},
+		"testdatasetin_connectionString": {
+			"value": ""
+		},
+		"testdatasetout_connectionString": {
 			"value": ""
 		}
 	}

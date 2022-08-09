@@ -11,17 +11,25 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureBlobStoragein'"
 		},
-		"AzureBlobStorageout_connectionString": {
-			"type": "secureString",
-			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorageout'"
-		},
 		"AzureBlobStoragenewin_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureBlobStoragenewin'"
 		},
+		"AzureBlobStorageout_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorageout'"
+		},
 		"AzureBlobStorageoutputnew_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorageoutputnew'"
+		},
+		"testdatasetin_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'testdatasetin'"
+		},
+		"testdatasetout_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'testdatasetout'"
 		},
 		"containerUri": {
 			"type": "string",
@@ -50,17 +58,23 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
-					"AzureBlobStoragein_connectionString": {
-						"value": "[parameters('AzureBlobStoragein_connectionString')]"
-					},
-					"AzureBlobStorageout_connectionString": {
-						"value": "[parameters('AzureBlobStorageout_connectionString')]"
-					},
 					"AzureBlobStoragenewin_connectionString": {
 						"value": "[parameters('AzureBlobStoragenewin_connectionString')]"
 					},
 					"AzureBlobStorageoutputnew_connectionString": {
 						"value": "[parameters('AzureBlobStorageoutputnew_connectionString')]"
+					},
+					"testdatasetin_connectionString": {
+						"value": "[parameters('testdatasetin_connectionString')]"
+					},
+					"testdatasetout_connectionString": {
+						"value": "[parameters('testdatasetout_connectionString')]"
+					},
+					"AzureBlobStoragein_connectionString": {
+						"value": "[parameters('AzureBlobStoragein_connectionString')]"
+					},
+					"AzureBlobStorageout_connectionString": {
+						"value": "[parameters('AzureBlobStorageout_connectionString')]"
 					}
 				}
 			},
