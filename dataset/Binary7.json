@@ -13,5 +13,6 @@
 				"container": "sunnyout"
 			}
 		}
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
 }

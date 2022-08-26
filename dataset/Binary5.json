@@ -13,5 +13,6 @@
 				"container": "in224"
 			}
 		}
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
 }

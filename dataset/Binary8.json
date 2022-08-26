@@ -13,5 +13,6 @@
 				"container": "finaldataout"
 			}
 		}
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
 }

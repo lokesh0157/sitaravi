@@ -1,0 +1,7 @@
+{
+	"name": "integrationRuntime126",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "selfhost on test VM"
+	}
+}
