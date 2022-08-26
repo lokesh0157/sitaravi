@@ -1,0 +1,17 @@
+{
+	"name": "26dataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage26",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "in224"
+			}
+		}
+	}
+}
